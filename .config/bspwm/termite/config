@@ -1,0 +1,67 @@
+[options]
+allow_bold = true
+#audible_bell = false
+#bold_is_bright = true
+#cell_height_scale = 1.0
+#cell_width_scale = 1.0
+clickable_url = true
+dynamic_title = true
+font = Fira Mono for Powerline 11
+#fullscreen = true
+#icon_name = terminal
+#mouse_autohide = false
+#scroll_on_output = false
+#scroll_on_keystroke = true
+# Length of the scrollback buffer, 0 disabled the scrollback buffer
+# and setting it to a negative value means "infinite scrollback"
+scrollback_lines = 10000
+#search_wrap = true
+#urgent_on_bell = true
+#hyperlinks = false
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+browser = xdg-open
+
+# "system", "on" or "off"
+cursor_blink = system
+
+# "block", "underline" or "ibeam"
+cursor_shape = block
+
+# Hide links that are no longer valid in url select overlay mode
+#filter_unmatched_urls = true
+
+# Emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+# set size hints for the window
+#size_hints = false
+
+# "off", "left" or "right"
+#scrollbar = off
+
+#===============================================================
+
+[colors]
+
+foreground=#e5e0dc
+background=#0d0e0d
+cursor=
+
+color0=#0d0e0d
+color1=#388D53
+color2=#448E52
+color3=#53AD9F
+color4=#5BC0BC
+color5=#57C5D1
+color6=#ACBEC0
+color7=#e5e0dc
+
+color8=#a09c9a
+color9=#388D53
+color10=#448E52
+color11=#53AD9F
+color12=#5BC0BC
+color13=#57C5D1
+color14=#ACBEC0
+color15=#e5e0dc
