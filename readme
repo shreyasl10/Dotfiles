@@ -10,7 +10,11 @@
 
 6)Some of the fonts to install- Fira mono for powerline, Cascadia code, iosevka nerd font, Dejavu sans, Source code pro, Noto Sans
 
-7)Install the following dependencies- Openbox, BSPWM, polybar, rofi , dunst , mpd, ncmpcpp, dmenu, geany, obmenu-generator, ranger, termite ( now obsolete so replace with alacritty or kitty ), compton , zsh, oh-my-zsh
+7)Install the following dependencies- Openbox, BSPWM, polybar, rofi , dunst , mpd, ncmpcpp, dmenu, geany, obmenu-generator, ranger, termite ( now obsolete so replace with alacritty or kitty ), compton , zsh, oh-my-zsh, nitrogen, lxappearance
 
-8) That's it! you should be good to go now
+8)Copy the contents of bin and paste them in /usr/bin
+
+9)Copy the archlabs folder and paste it in /usr/lib
+
+10) That's it! you should be good to go now
 
