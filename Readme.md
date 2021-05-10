@@ -28,3 +28,9 @@ yay -S Openbox BSPWM polybar rofi dunst mpd ncmpcpp dmenu geany obmenu-generator
 
 10) That's it! you should be good to go now. Reboot once just to be safe and login to your new system
 
+## P.S
+
+I have kept the keybindings common between both the BSPWM as well as openbox desktop to get a better experience. Do change them as per your requirements. 
+
+<u>Tip</u> : You can change the themes on bspwm with the keybind Ctrl+Alt+T and you can use the Obmenu on openbox to do the same.
+
