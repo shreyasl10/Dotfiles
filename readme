@@ -9,6 +9,7 @@
 5)Copy the contents of the .config folder and paste them in ~/.config/
 
 6)Some of the fonts to install- Fira mono for powerline, Cascadia code, iosevka nerd font, Dejavu sans, Source code pro, Noto Sans
+(Or copy the contents of the fonts folder and paste it in /usr/share/fonts)
 
 7)Install the following dependencies- Openbox, BSPWM, polybar, rofi , dunst , mpd, ncmpcpp, dmenu, geany, obmenu-generator, ranger, termite ( now obsolete so replace with alacritty or kitty ), compton , zsh, oh-my-zsh, nitrogen, lxappearance
 
