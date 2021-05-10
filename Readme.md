@@ -8,23 +8,32 @@ These are just a few screenshots of some of the possible themes. There are a lot
 
 ## Openbox
 
-   ### 1) Default
+   ### Default
    
    ![Screenshot](screenshots/openboxDef1.png)
    
    ![Screenshot](screenshots/openboxDef2.png)
    
-   ### 2) Manhattan
+   ### Manhattan
 
    ![Screenshot](screenshots/openboxManhattan1.png)
    
    ![Screenshot](screenshots/openboxManhattan2.png)
    
-   ### 3) Spark
+   ### Spark
    
    ![Screenshot](screenshots/openboxSpark1.png)
    
    ![Screenshot](screenshots/openboxSpark2.png)
+
+## BSPWM
+   
+   ### Nord
+   
+   ![Screenshot](screenshots/BSPWMNord2.png)
+   
+   ![Screenshot](screenshots/BSPWMNord1.png)
+   
 
 
 ## Steps to get my Desktop:
