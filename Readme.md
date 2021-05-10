@@ -1,10 +1,11 @@
 
+# My Dotfiles
+This desktop is heavily inspired and created on Archcraft(archcraft-os.github.io). Its a great minimal arch based distro with a gorgeous desktop. I have tried to keep it as minimal and bloat free as possible.
 
-This desktop is heavily inspired and created on Archcraft(archcraft-os.github.io). Its a great minimal arch based distro with a gorgeous desktop.
-
-Steps to get my Desktop:
+## Steps to get my Desktop:
 
 1) Install the following dependencies(If you want updates to your terminal, replace termite with alacritty or kitty as termite is obsolete now)
+
 yay -S Openbox BSPWM polybar rofi dunst mpd ncmpcpp dmenu geany obmenu-generator ranger termite compton zsh oh-my-zsh nitrogen lxappearance
 (If you use a different AUR helper like paru , please use it accordingly. I am using the AUR to install most of the packages as some of the patched packages are not available in the official repos)
 
