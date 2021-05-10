@@ -7,8 +7,25 @@ This desktop is heavily inspired and created on [Archcraft](https://archcraft-os
 These are just a few screenshots of some of the possible themes. There are a lot more themes available and you can switch between them easily.
 
 ### Openbox
-   1)Default Theme
+
+   1) Default
+   
    ![Screenshot](screenshots/openboxDef1.png)
+   
+   ![Screenshot](screenshots/openboxDef2.png)
+   
+   2) Manhattan
+
+   ![Screenshot](screenshots/openboxManhattan1.png)
+   
+   ![Screenshot](screenshots/openboxManhattan2.png)
+   
+   3) Spark
+   
+   ![Screenshot](screenshots/openboxSpark1.png)
+   
+   ![Screenshot](screenshots/openboxSpark2.png)
+
 
 ## Steps to get my Desktop:
 
