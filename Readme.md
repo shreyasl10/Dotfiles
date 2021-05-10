@@ -1,6 +1,8 @@
 
 # My Dotfiles
-This desktop is heavily inspired and created on [Archcraft](https://archcraft-os.github.io). Its a great minimal arch based distro with a gorgeous desktop. All credits go to the creator of that distro and I have just modified stuff on top of it to my liking.
+This desktop is heavily inspired and created on [Archcraft](https://archcraft-os.github.io). Its a great minimal arch based distro with a gorgeous desktop. All credits go to the creator of that distro and I have just modified stuff on top of it to my liking. 
+
+Do checkout https://github.com/adi1090x , he has contributed immensely to the Linux community.
 
 ## Screenshots
 
