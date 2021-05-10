@@ -32,6 +32,8 @@ This desktop is heavily inspired and created on [Archcraft](archcraft-os.github.
 
 1) I have kept the keybindings common between both the BSPWM as well as openbox desktop to get a better experience. Do change them as per your requirements. 
 
+   To change the keybindings on BSPWM and Openbox, edit the sxhkdrc file in `~/.config/sxhkd` and `~/.config/openbox/rc.xml` respectively.
+
 2) You can change the themes on bspwm with the keybind Ctrl+Alt+T and you can use the Obmenu on openbox to do the same.
 
 3) If for some reason you find the gtk-theme or icons not changing with change in global theme, open lxappearance either from rofi or from the terminal and change the theme accordingly.
