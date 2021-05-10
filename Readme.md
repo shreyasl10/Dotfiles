@@ -1,6 +1,6 @@
 
 # My Dotfiles
-This desktop is heavily inspired and created on Archcraft[I'm an inline-style link](archcraft-os.github.io). Its a great minimal arch based distro with a gorgeous desktop. I have tried to keep it as minimal and bloat free as possible.
+This desktop is heavily inspired and created on Archcraft [archcraft-os.github.io]. Its a great minimal arch based distro with a gorgeous desktop. I have tried to keep it as minimal and bloat free as possible.
 
 ## Steps to get my Desktop:
 
