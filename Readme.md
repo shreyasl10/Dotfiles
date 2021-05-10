@@ -14,7 +14,7 @@ yay -S Openbox BSPWM polybar rofi dunst mpd ncmpcpp dmenu geany obmenu-generator
 
 4) Move icons folder to /usr/share/icons
 
-5) Move everything else but the .config folder to your home directory
+5) Move .mpd,.ncmpcpp,.Xresources.d,.Xresources,.zshrc to your home directory
 
 6) Copy the contents of the .config folder and paste them in ~/.config/
 
