@@ -38,7 +38,7 @@ These are just a few screenshots of some of the possible themes. There are a lot
 
 ## Steps to get my Desktop:
 
-1) Install the following dependencies(If you want updates to your terminal, replace termite with alacritty or kitty as termite is obsolete now)
+1) Install the following dependencies
 
    `yay -S Openbox BSPWM polybar rofi dunst mpd ncmpcpp dmenu geany obmenu-generator ranger termite compton zsh oh-my-zsh nitrogen lxappearance`
 
@@ -71,4 +71,6 @@ These are just a few screenshots of some of the possible themes. There are a lot
 2) You can change the themes on bspwm with the keybind Ctrl+Alt+T and you can use the Obmenu on openbox to do the same.
 
 3) If for some reason you find the gtk-theme or icons not changing with change in global theme, open lxappearance either from rofi or from the terminal and change the theme accordingly.
+
+4) The terminal application Termite has become obsolete now. I have not bothered changing the terminal application as its already well customized to my liking and I'm comfortable with it. If you would prefer another terminal application , install alacritty or kitty instead of termite
 
