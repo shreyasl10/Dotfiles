@@ -1,6 +1,14 @@
 
 # My Dotfiles
-This desktop is heavily inspired and created on [Archcraft](https://archcraft-os.github.io). Its a great minimal arch based distro with a gorgeous desktop. I have tried to keep it as minimal and bloat free as possible.
+This desktop is heavily inspired and created on [Archcraft](https://archcraft-os.github.io). Its a great minimal arch based distro with a gorgeous desktop. All credits go to the creator of that distro and I have just modified stuff on top of it to my liking.
+
+## Screenshots
+
+These are just a few screenshots of some of the possible themes. There are a lot more themes available and you can switch between them easily.
+
+### Openbox
+   1)Default Theme
+   ![Screenshot](screenshots/openboxDef1.png)
 
 ## Steps to get my Desktop:
 
@@ -16,7 +24,7 @@ This desktop is heavily inspired and created on [Archcraft](https://archcraft-os
 
 4) Move icons folder to `/usr/share/icons`
 
-5) Move .mpd,.ncmpcpp,.Xresources.d,.Xresources,.zshrc to your home directory
+5) Move `.mpd,.ncmpcpp,.Xresources.d,.Xresources,.zshrc` to your home directory
 
 6) Copy the contents of the .config folder and paste them in `~/.config/`
 
