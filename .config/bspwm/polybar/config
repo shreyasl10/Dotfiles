@@ -39,7 +39,7 @@ radius-top = 0.0
 radius-bottom = 0.0
 
 line-size = 2
-line-color = ${color.BLUE}
+line-color = ${color.MAGENTA}
 
 border-size = 4
 border-color = ${color.BACKGROUND}
@@ -144,7 +144,7 @@ ramp-volume-7 = 墳
 ramp-volume-8 = 墳
 ramp-volume-9 = 墳
 ramp-volume-font = 2
-ramp-volume-foreground = ${color.BLUE}
+ramp-volume-foreground = ${color.MAGENTA}
 
 ramp-headphones-0 = 
 ramp-headphones-1 = 
@@ -257,7 +257,7 @@ label-monitor = %name%
 
 label-focused = %name%
 label-focused-foreground = ${color.BACKGROUND}
-label-focused-background = ${color.BLUE}
+label-focused-background = ${color.MAGENTA}
 ;label-focused-underline = ${color.RED}
 label-focused-padding = 1
 
@@ -288,7 +288,7 @@ label-separator-padding = 0
 type = internal/bspwm
 
 format = <label-mode>
-format-background = ${color.YELLOW}
+format-background = ${color.ALTMAGENTA}
 format-foreground = ${color.BACKGROUND}
 format-padding = 1
 
@@ -412,7 +412,7 @@ ramp-signal-2 = 直
 ramp-signal-3 = 直
 ramp-signal-4 = 直
 ramp-signal-font = 2
-ramp-signal-foreground = ${color.CYAN}
+ramp-signal-foreground = ${color.MAGENTA}
 
 
 [module/filesystem]
@@ -497,7 +497,7 @@ format-background = ${color.BG2}
 
 format-prefix = ﬙
 format-prefix-font = 2
-format-prefix-foreground = ${color.BLUE}
+format-prefix-foreground = ${color.MAGENTA}
 
 ; Available tokens:
 ;   %percentage_used% (default)
@@ -517,7 +517,7 @@ format-prefix-foreground = ${color.BLUE}
 ;   %gb_swap_free%
 ;   %gb_swap_used%
 
-label = "%mb_used%"
+label = " %mb_used%"
 
 ; Only applies if <ramp-used> is used
 ;;ramp-used-0 = 

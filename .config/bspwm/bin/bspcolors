@@ -86,7 +86,7 @@ bsprofi () {
 	* {
 		background:			${BACKGROUND};
 		foreground:			${FOREGROUND};
-		selected:			${BLUE};
+		selected:			${MAGENTA};
 		urgent:				${RED};
 		on:					${GREEN};
 		off:				${RED};

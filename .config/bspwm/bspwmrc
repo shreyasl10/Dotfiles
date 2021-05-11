@@ -26,9 +26,9 @@ bspc config border_width 1
 bspc config window_gap 10
 bspc config split_ratio 0.50
 
-bspc config focused_border_color "$BLUE" 
+bspc config focused_border_color "$MAGENTA" 
 bspc config normal_border_color "$BACKGROUND"
-bspc config active_border_color "$MAGENTA"
+bspc config active_border_color "$BLUE"
 bspc config presel_feedback_color "$GREEN"
 
 bspc config borderless_monocle true
@@ -62,8 +62,8 @@ killall -9 sxhkd xsettingsd dunst xfce4-power-manager
 # Lauch notification daemon
 dunst \
 -geom "280x50-10+40" -frame_width "1" -font "Iosevka Custom 9" \
--lb "$BACKGROUND" -lf "$FOREGROUND" -lfr "$BLUE" \
--nb "$BACKGROUND" -nf "$FOREGROUND" -nfr "$BLUE" \
+-lb "$BACKGROUND" -lf "$FOREGROUND" -lfr "$MAGENTA" \
+-nb "$BACKGROUND" -nf "$FOREGROUND" -nfr "$MAGENTA" \
 -cb "$BACKGROUND" -cf "$RED" -cfr "$RED" &
 
 # Lauch keybindings daemon
