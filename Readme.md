@@ -36,6 +36,11 @@ These are just a few screenshots of some of the possible themes. There are a lot
    
    ![Screenshot](screenshots/BSPWMNord1.png)
    
+   ### Dark
+   
+   ![Screenshot](screenshots/BSPWMDark1.png)
+   
+   ![Screenshot](screenshots/BSPWMDark2.png)
 
 
 ## Steps to get my Desktop:
