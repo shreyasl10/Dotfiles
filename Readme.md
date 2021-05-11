@@ -8,6 +8,21 @@ Do checkout https://github.com/adi1090x , he has contributed immensely to the Li
 
 These are just a few screenshots of some of the possible themes. There are a lot more themes available and you can switch between them easily.
 
+## BSPWM
+   
+   ### Dark
+   
+   ![Screenshot](screenshots/BSPWMDark1.png)
+   
+   ![Screenshot](screenshots/BSPWMDark2.png)
+   
+   ### Nord
+   
+   ![Screenshot](screenshots/BSPWMNord2.png)
+   
+   ![Screenshot](screenshots/BSPWMNord1.png)
+   
+
 ## Openbox
 
    ### Default
@@ -27,20 +42,6 @@ These are just a few screenshots of some of the possible themes. There are a lot
    ![Screenshot](screenshots/openboxSpark1.png)
    
    ![Screenshot](screenshots/openboxSpark2.png)
-
-## BSPWM
-   
-   ### Nord
-   
-   ![Screenshot](screenshots/BSPWMNord2.png)
-   
-   ![Screenshot](screenshots/BSPWMNord1.png)
-   
-   ### Dark
-   
-   ![Screenshot](screenshots/BSPWMDark1.png)
-   
-   ![Screenshot](screenshots/BSPWMDark2.png)
 
 
 ## Steps to get my Desktop:
