@@ -52,33 +52,32 @@ bspbar () {
 }
 
 bspterm () {
-	sed -i '/colors/Q' $DIR/termite/config
-	cat >> $DIR/termite/config <<- EOF	
+	sed -i '/colors/Q' $DIR/kitty/kitty.conf
+	cat >> $DIR/kitty/kitty.conf <<- EOF	
 	[colors]
 
-	foreground=${FOREGROUND}
-	background=${BACKGROUND}
-	cursor=${CURSOR}
+	foreground ${FOREGROUND}
+	background ${BACKGROUND}
 
-	color0=${BLACK}
-	color1=${RED}
-	color2=${GREEN}
-	color3=${YELLOW}
-	color4=${BLUE}
-	color5=${MAGENTA}
-	color6=${CYAN}
-	color7=${WHITE}
+	color0 ${BLACK}
+	color1 ${RED}
+	color2 ${GREEN}
+	color3 ${YELLOW}
+	color4 ${BLUE}
+	color5 ${CYAN}
+	color6 ${MAGENTA}
+	color7 ${WHITE}
 
-	color8=${ALTBLACK}
-	color9=${ALTRED}
-	color10=${ALTGREEN}
-	color11=${ALTYELLOW}
-	color12=${ALTBLUE}
-	color13=${ALTMAGENTA}
-	color14=${ALTCYAN}
-	color15=${ALTWHITE}
+	color8 ${ALTBLACK}
+	color9 ${ALTRED}
+	color10 ${ALTGREEN}
+	color11 ${ALTYELLOW}
+	color12 ${ALTBLUE}
+	color13 ${ALTCYAN}
+	color14 ${ALTMAGENTA}
+	color15 ${ALTWHITE}
 	EOF
-	killall -USR1 termite
+	killall -USR1 kitty
 }
 
 bsprofi () {

@@ -18,7 +18,7 @@ super + v
 	pavucontrol
 	
 super + shift + n
-	termite -e ncmpcpp
+	kitty -e ncmpcpp
 
 # Rofi Network Menu
 super + n
@@ -32,7 +32,7 @@ ctrl + alt + {s,n,t}
 	sh ~/.config/bspwm/rofi/bin/{screenshot,network,themes}
 
 ctrl + alt + h
-	termite -e htop
+	kitty -e htop
 ##---------- Applications ----------##
 
 # Launch Apps

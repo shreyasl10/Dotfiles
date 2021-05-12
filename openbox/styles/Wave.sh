@@ -3,27 +3,27 @@
 ## Dirs #############################################
 polybar_path="$HOME/.config/polybar"
 rofi_path="$HOME/.config/rofi"
-termite_path="$HOME/.config/termite"
+kitty_path="$HOME/.config/kitty"
 geany_path="$HOME/.config/geany"
 openbox_path="$HOME/.config/openbox"
 dunst_path="$HOME/.config/dunst"
 
 # wallpaper ---------------------------------
-nitrogen --save --set-zoom-fill /usr/share/backgrounds/bg_6.jpg
+nitrogen --save --set-zoom-fill /usr/share/backgrounds/bg_7.jpg
 
 # polybar ---------------------------------
-sed -i -e 's/STYLE=.*/STYLE="manhattan"/g' $polybar_path/launch.sh
-sed -i -e 's/font-0 = .*/font-0 = "Iosevka Nerd Font:size=10;3"/g' $polybar_path/manhattan/config.ini
+sed -i -e 's/STYLE=.*/STYLE="wave"/g' $polybar_path/launch.sh
+sed -i -e 's/font-0 = .*/font-0 = "Iosevka Nerd Font:size=10;3"/g' $polybar_path/wave/config.ini
 
 # relaunch polybar
 $polybar_path/launch.sh
 
 # rofi ---------------------------------
-sed -i -e 's/STYLE=.*/STYLE="manhattan"/g' "$rofi_path/bin/mpd" "$rofi_path/bin/network" "$rofi_path/bin/screenshot"
-sed -i -e 's/DIR=.*/DIR="manhattan"/g' "$rofi_path/bin/launcher" "$rofi_path/bin/powermenu"
+sed -i -e 's/STYLE=.*/STYLE="wave"/g' "$rofi_path/bin/mpd" "$rofi_path/bin/network" "$rofi_path/bin/screenshot"
+sed -i -e 's/DIR=.*/DIR="wave"/g' "$rofi_path/bin/launcher" "$rofi_path/bin/powermenu"
 sed -i -e 's/STYLE=.*/STYLE="launcher"/g' "$rofi_path/bin/launcher"
 sed -i -e 's/STYLE=.*/STYLE="powermenu"/g' "$rofi_path/bin/powermenu"
-sed -i -e 's/font:.*/font:				 	"Iosevka 10";/g' "$rofi_path/manhattan/font.rasi"
+sed -i -e 's/font:.*/font:				 	"Iosevka 10";/g' "$rofi_path/wave/font.rasi"
 
 sed -i -e 's/font:.*/font:				 	"Iosevka 10";/g' "$rofi_path/dialogs/askpass.rasi" "$rofi_path/dialogs/confirm.rasi"
 sed -i -e 's/border:.*/border:					0px;/g' "$rofi_path/dialogs/askpass.rasi" "$rofi_path/dialogs/confirm.rasi"
@@ -31,57 +31,53 @@ cat > $rofi_path/dialogs/colors.rasi << _EOF_
 /* Color-Scheme */
 
 * {
-    BG:    #1F252Bff;
-    FG:    #F1FCF9ff;
-    BDR:   #DB86BAff;
+    BG:    #3D4C5Fff;
+    FG:    #F8F8F2ff;
+    BDR:   #F48FB1ff;
 }
 _EOF_
 
 # Network Manager ---------------------------------
-sed -i -e 's#dmenu_command = .*#dmenu_command = rofi -dmenu -theme manhattan/networkmenu.rasi#g' "$HOME"/.config/networkmanager-dmenu/config.ini
+sed -i -e 's#dmenu_command = .*#dmenu_command = rofi -dmenu -theme wave/networkmenu.rasi#g' "$HOME"/.config/networkmanager-dmenu/config.ini
 
-# termite ---------------------------------
-sed -i -e 's/font = .*/font = Iosevka Custom 9/g' $termite_path/config
-sed -i '/colors/Q' $termite_path/config
+# kitty ---------------------------------
+sed -i -e 's/font = .*/font = Iosevka Custom 9/g' $kitty_path/kitty.conf
+sed -i '/colors/Q' $kitty_path/kitty.conf
 
-cat >> $termite_path/config << _EOF_
+cat >> $kitty_path/kitty.conf << _EOF_
 [colors]
 
-background = #282F37
-foreground = #F1FCF9
-cursor = #F1FCF9
+background #323F4E
+foreground #F8F8F2
 
-color0 = #20262C
-color1 = #DB86BA
-color2 = #74DD91
-color3 = #E49186
-color4 = #75DBE1
-color5 = #B4A1DB
-color6 = #9EE9EA
-color7 = #F1FCF9
-color8 = #465463
-color9 = #D04E9D
-color10 = #4BC66D
-color11 = #DB695B
-color12 = #3DBAC2
-color13 = #825ECE
-color14 = #62CDCD
-color15 = #E0E5E5
+color0 #3D4C5F
+color1 #F48FB1
+color2 #A1EFD3
+color3 #F1FA8C
+color4 #92B6F4
+color5 #BD99FF
+color6 #87DFEB
+color7 #F8F8F2
+color8 #56687E
+color9 #EE4F84
+color10 #53E2AE
+color11 #F1FF52
+color12 #6498EF
+color13 #985EFF
+color14 #24D1E7
+color15 #E5E5E5
 _EOF_
 
-# alt config
-cp "$termite_path"/config "$termite_path"/config_easy
-sed -i -e 's/font = .*/font = Noto Sans Mono 10/g' $termite_path/config_easy
 
 # reload settings
-killall -USR1 termite
+killall -USR1 kitty
 
 # geany ---------------------------------
-sed -i -e 's/color_scheme=.*/color_scheme=manhattan.conf/g' "$geany_path"/geany.conf
+sed -i -e 's/color_scheme=.*/color_scheme=wave.conf/g' "$geany_path"/geany.conf
 sed -i -e 's/editor_font=.*/editor_font=Iosevka Custom 10/g' "$geany_path"/geany.conf
 
 # gtk theme, icons and fonts ---------------------------------
-xfconf-query -c xsettings -p /Net/ThemeName -s "manhattan"
+xfconf-query -c xsettings -p /Net/ThemeName -s "wave"
 xfconf-query -c xsettings -p /Net/IconThemeName -s "Hybrid"
 xfconf-query -c xsettings -p /Gtk/CursorThemeName -s "Hybrid"
 xfconf-query -c xsettings -p /Gtk/FontName -s "Noto Sans 9"
@@ -90,7 +86,7 @@ xfconf-query -c xsettings -p /Gtk/FontName -s "Noto Sans 9"
 obconfig () {
 	namespace="http://openbox.org/3.4/rc"
 	config="$openbox_path/rc.xml"
-	theme="manhattan"
+	theme="wave"
 	layout="LIMC"
 	font="Noto Sans"
 	fontsize="9"
@@ -142,7 +138,7 @@ obconfig () {
 obconfig && openbox --reconfigure
 
 # dunst ---------------------------------
-sed -i -e 's/geometry = .*/geometry = "280x50-20+20"/g' $dunst_path/dunstrc
+sed -i -e 's/geometry = .*/geometry = "280x50-20-58"/g' $dunst_path/dunstrc
 sed -i -e 's/font = .*/font = Iosevka Custom 9/g' $dunst_path/dunstrc
 sed -i -e 's/frame_width = .*/frame_width = 0/g' $dunst_path/dunstrc
 
@@ -154,21 +150,21 @@ sed -i '/urgency_low/Q' $dunst_path/dunstrc
 cat >> $dunst_path/dunstrc << _EOF_
 [urgency_low]
 timeout = 4
-background = "#1F252B"
-foreground = "#F1FCF9"
-frame_color = "#1F252B"
+background = "#3D4C5F"
+foreground = "#F8F8F2"
+frame_color = "#3D4C5F"
 
 [urgency_normal]
 timeout = 8
-background = "#1F252B"
-foreground = "#F1FCF9"
-frame_color = "#1F252B"
+background = "#3D4C5F"
+foreground = "#F8F8F2"
+frame_color = "#3D4C5F"
 
 [urgency_critical]
 timeout = 0
-background = "#1F252B"
-foreground = "#DB86BA"
-frame_color = "#1F252B"
+background = "#3D4C5F"
+foreground = "#F48FB1"
+frame_color = "#3D4C5F"
 _EOF_
 
 pkill dunst && dunst &

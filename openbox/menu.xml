@@ -4,7 +4,7 @@
 <!--	<separator label="Main Menu"/>  -->
 		<item label="Terminal Emulator">
 			<action name="Execute">
-				<command>termite</command>
+				<command>kitty</command>
 			</action>
 		</item>
 		<item label="Web Browser">
@@ -25,9 +25,9 @@
 		<separator/>
 		<menu execute="obmenu-generator" id="app-menu" label="Applications"/>
 		<menu id="root-menu-8397" label="Apps As Root">
-			<item label="Terminal (termite)">
+			<item label="Terminal (kitty)">
 				<action name="Execute">
-					<execute>apps_as_root.sh termite</execute>
+					<execute>apps_as_root.sh kitty</execute>
 				</action>
 			</item>
 			<item label="File Manager (thunar)">
@@ -47,12 +47,12 @@
 			</item>
 			<item label="File Manager CLI (ranger)">
 				<action name="Execute">
-					<execute>apps_as_root.sh 'termite -e ranger'</execute>
+					<execute>apps_as_root.sh 'kitty -e ranger'</execute>
 				</action>
 			</item>
 			<item label="Text Editor CLI (vim)">
 				<action name="Execute">
-					<execute>apps_as_root.sh 'termite -e vim'</execute>
+					<execute>apps_as_root.sh 'kitty -e vim'</execute>
 				</action>
 			</item>
 		</menu>
@@ -69,17 +69,17 @@
 			</item>
 			<item label="Comfy Terminal">
 				<action name="Execute">
-					<execute>termite -c ~/.config/termite/config_easy</execute>
+					<execute>kitty</execute>
 				</action>
 			</item>
 			<item label="Music Player">
 				<action name="Execute">
-					<execute>termite -e ncmpcpp</execute>
+					<execute>kitty -e ncmpcpp</execute>
 				</action>
 			</item>
 			<item label="Visualizer">
 				<action name="Execute">
-					<execute>termite -e 'ncmpcpp -s visualizer'</execute>
+					<execute>kitty -e 'ncmpcpp -s visualizer'</execute>
 				</action>
 			</item>
 		</menu>

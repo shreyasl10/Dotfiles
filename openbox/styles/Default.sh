@@ -3,7 +3,7 @@
 ## Dirs #############################################
 polybar_path="$HOME/.config/polybar"
 rofi_path="$HOME/.config/rofi"
-termite_path="$HOME/.config/termite"
+kitty_path="$HOME/.config/kitty"
 geany_path="$HOME/.config/geany"
 openbox_path="$HOME/.config/openbox"
 dunst_path="$HOME/.config/dunst"
@@ -40,56 +40,53 @@ _EOF_
 # Network Manager ---------------------------------
 sed -i -e 's#dmenu_command = .*#dmenu_command = rofi -dmenu -theme default/networkmenu.rasi#g' "$HOME"/.config/networkmanager-dmenu/config.ini
 
-# termite ---------------------------------
-sed -i -e 's/font = .*/font = Iosevka Custom 9/g' $termite_path/config
-sed -i '/colors/Q' $termite_path/config
+# kitty ---------------------------------
+sed -i -e 's/font = .*/font = Iosevka Custom 9/g' $kitty_path/kitty.conf
+sed -i '/colors/Q' $kitty_path/kitty.conf
 
-cat >> $termite_path/config << _EOF_
+cat >> $kitty_path/kitty.conf << _EOF_
 [colors]
 
-foreground = #C4C7C5
-background = #222D32
-cursor = #afbfbf
+foreground #C4C7C5
+background #222D32
+
 
 #black
-color0 = #263640
-color8 = #4a697d
+color0 #263640
+color8 #4a697d
 
 #red
-color1 = #EC7875
-color9 = #FB8784
+color1 #EC7875
+color9 #FB8784
 
 #green
-color2 = #61C766
-color10 = #70D675
+color2 #61C766
+color10 #70D675
 
 #yellow
-color3 = #FDD835
-color11 = #FFE744
+color3 #FDD835
+color11 #FFE744
 
 #blue
-color4 = #42A5F5
-color12 = #51B4FF
+color4 #42A5F5
+color12 #51B4FF
 
 #magenta
-color5 = #BA68C8
-color13 = #C979D7
+color5 #BA68C8
+color13 #C979D7
 
 #cyan
-color6 = #4DD0E1
-color14 = #5CDFF0
+color6 #4DD0E1
+color14 #5CDFF0
 
 #white
-color7 = #bfbaac
-color15 = #fdf6e3
+color7 #bfbaac
+color15 #fdf6e3
 _EOF_
 
-# alt config
-cp "$termite_path"/config "$termite_path"/config_easy
-sed -i -e 's/font = .*/font = Noto Sans Mono 10/g' $termite_path/config_easy
 
 # reload settings
-killall -USR1 termite
+killall -USR1 kitty
 
 # geany ---------------------------------
 sed -i -e 's/color_scheme=.*/color_scheme=default.conf/g' "$geany_path"/geany.conf

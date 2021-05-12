@@ -32,8 +32,6 @@ xfce4-power-manager &
 ## Adjust backlight (AMD)
 #blight -d amdgpu_bl0 set 20%
 
-## Getting Started
-gs_run_once.sh
 
 ## Issue Tracker (Don't Remove IT)
 issue_tracker.sh

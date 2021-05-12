@@ -19,43 +19,43 @@
     <primaryMonitor>Mouse</primaryMonitor>
   </placement>
   <theme>
-    <name>spark</name>
-    <titleLayout>LIMC</titleLayout>
+    <name>adaptive</name>
+    <titleLayout>MLC</titleLayout>
     <keepBorder>no</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
       <name>Noto Sans</name>
-      <size>10</size>
+      <size>9</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveWindow">
       <name>Noto Sans</name>
-      <size>10</size>
+      <size>9</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuHeader">
       <name>Noto Sans</name>
-      <size>10</size>
+      <size>9</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuItem">
       <name>Noto Sans</name>
-      <size>10</size>
+      <size>9</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="ActiveOnScreenDisplay">
       <name>Noto Sans</name>
-      <size>10</size>
+      <size>9</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveOnScreenDisplay">
       <name>Noto Sans</name>
-      <size>10</size>
+      <size>9</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
@@ -82,10 +82,10 @@
     </popupFixedPosition>
   </resize>
   <margins>
-    <top>8</top>
-    <bottom>0</bottom>
-    <left>8</left>
-    <right>8</right>
+    <top>0</top>
+    <bottom>10</bottom>
+    <left>10</left>
+    <right>10</right>
   </margins>
   <dock>
     <position>Bottom</position>
@@ -394,17 +394,17 @@
     </keybind>
     <keybind key="W-S-n">
       <action name="Execute">
-        <command>termite -e ncmpcpp</command>
+        <command>kitty -e ncmpcpp</command>
       </action>
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>termite</command>
+        <command>kitty</command>
       </action>
     </keybind>
     <keybind key="W-Return">
       <action name="Execute">
-        <command>termite</command>
+        <command>kitty</command>
       </action>
     </keybind>
     <keybind key="W-b">

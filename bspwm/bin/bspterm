@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# launch termite with other config
+kitty -c ~/.config/bspwm/kitty/kitty.conf
+

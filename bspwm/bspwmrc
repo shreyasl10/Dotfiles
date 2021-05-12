@@ -80,7 +80,7 @@ xfce4-power-manager &
 xsetroot -cursor_name left_ptr
 
 # Restore wallpaper
-bash $HOME/.fehbg
+nitrogen --restore &
 
 # Start mpd
 exec mpd &
