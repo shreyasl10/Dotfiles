@@ -48,7 +48,7 @@ These are just a few screenshots of some of the possible themes. There are a lot
 
 1) Install the following dependencies
 
-   `yay -S Openbox BSPWM polybar rofi dunst mpd ncmpcpp dmenu geany obmenu-generator ranger termite compton zsh oh-my-zsh nitrogen lxappearance`
+   `yay -S Openbox BSPWM polybar rofi dunst mpd ncmpcpp dmenu geany obmenu-generator ranger kitty compton zsh oh-my-zsh nitrogen lxappearance`
 
 (If you use a different AUR helper like paru , please use it accordingly. I am using the AUR to install most of the packages as some of the patched packages are not available in the official repos)
 
@@ -79,6 +79,4 @@ These are just a few screenshots of some of the possible themes. There are a lot
 2) You can change the themes on bspwm with the keybind Ctrl+Alt+T and you can use the Obmenu on openbox to do the same.
 
 3) If for some reason you find the gtk-theme or icons not changing with change in global theme, open lxappearance either from rofi or from the terminal and change the theme accordingly.
-
-4) The terminal application Termite has become obsolete now. I have not bothered changing the terminal application as its already well customized to my liking and I'm comfortable with it. If you would prefer another terminal application , install alacritty or kitty instead of termite
 
