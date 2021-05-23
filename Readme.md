@@ -45,12 +45,13 @@ These are just a few screenshots of some of the possible themes. There are a lot
 
 
 ## Steps to get my Desktop:
-<u>Note:</u> The command to install the dependencies pertains only if you are on an Arch based system. If you are on an Ubuntu/debian based distro, all the dependencies are available except for obmenu-generator and polybar(if you are using Ubuntu 20.04). 
+<ins>Note:</ins> The command to install the dependencies pertains only if you are on an Arch based system. If you are on an Ubuntu/debian based distro, all the dependencies are available except for obmenu-generator and polybar(if you are using Ubuntu 20.04). 
 
 For Obmenu-generator, follow the instructions to install it from source : https://github.com/trizen/obmenu-generator
+
 For polybar, you can build it from source here : https://github.com/polybar/polybar 
 
-1) Install the following dependencies
+1) Install the following dependencies(if you use an arch based system)
 
    `yay -S Openbox BSPWM polybar rofi dunst mpd ncmpcpp dmenu geany obmenu-generator ranger kitty compton zsh oh-my-zsh nitrogen lxappearance`
 
